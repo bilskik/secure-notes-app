@@ -21,6 +21,7 @@ services:
     image: secure-notes-app:latest
     environment:
       - "SPRING_PROFILES_ACTIVE=prod"
+      - "DB=db"
     ports:
       - '443:3443'
     depends_on:
