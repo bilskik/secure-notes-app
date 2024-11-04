@@ -25,7 +25,7 @@ services:
     ports:
       - '443:3443'
     depends_on:
-      - postgres
+      - db
     networks:
       - app-network
 
